@@ -181,20 +181,46 @@ main {
     font-size: 45%;
   }
   main {
-    width: 100%;
-    height: 80vh;
-  }
+    flex-direction: column;
 
+    height: 95vh;
+  }
+  .score {
+    margin-bottom: 0;
+  }
+  .player {
+    padding: 2rem;
+  }
+  .player--1 {
+    justify-content: center;
+  }
   .name {
     font-size: 2.5rem;
   }
 
   .btn {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 
   .btn--new {
-    top: 2rem;
+    top: 35%;
+    left: 20%;
+  }
+
+  .btn--roll {
+    left: 20%;
+    top: 45%;
+  }
+
+  .btn--hold {
+    left: 20%;
+    top: 55%;
+  }
+
+  .dice {
+    left: 60%;
+    top: 40%;
+    height: 15rem;
   }
 }
 
